@@ -16,9 +16,12 @@
 
     <Síbolos e emojis>
 
-        Síbolos: &(existe uma tabela com as predefinições)
+        Síbolos: (existe uma tabela com as predefinições)
+         &reg; &copy (©)
 
-        Emojis: &(também existe uma tabela com as predefinições)
+        Emojis: (também existe uma tabela com as predefinições)
+          Após pesquisar o código do símbolo terá que colocar o seguinte
+          &#x(código do emoji somente os números)
         
     <Imagens>
     
