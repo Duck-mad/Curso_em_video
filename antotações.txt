@@ -1,0 +1,148 @@
+[ ANOTAÇÕES IMPORTANTES ]
+
+    <Parágrafos e quebras de linhas>
+        
+        Títulos: <h1>Aqui o título<h1/>
+
+        Parágrafos: <p>Aqui o parágrafo<p/>
+         pode ser usado <p>lorem</p>
+         Cria um texto predefinido para testes geralmente
+
+        Quebras de linhas: <b> *sem fechamento de tag*
+
+        Linha com linha: <hr> 
+
+        Texto em negrito: <b>aqui o texto</b>
+
+    <Síbolos e emojis>
+
+        Síbolos: &(existe uma tabela com as predefinições)
+
+        Emojis: &(também existe uma tabela com as predefinições)
+        
+    <Imagens>
+    
+        Direitos autorais: sempre cuidar este assunto pois legalmente não podem ser utilizadas qualquer imagens
+         https://unsplash.com/pt-br
+         https://www.pexels.com/pt-br/
+        
+        Formatos de imagens: 
+         jpeg: muito usado para imagens grandes ou para redimensionar
+         png: atributo de transparência, usado para imagens flutuantes
+        
+        Usar o Gimp para redimensionar, tamanhos recomendáveis
+         1500px máx
+         650px med
+         100px normal
+         50px logos
+
+         Para encontrar em src dentro de <img> use "Ctrl" + Espaço
+
+        Favicon: <link rel="shortcut icon" href="local" type="image/x-icon">
+         algumas maneiras de criar o Favicon
+          https://favicon.io/favicon-converter/
+          https://www.iconarchive.com/
+        
+         Precisa estar como tipo ico ex: favicon.ico
+
+    <Hieararquia de Títulos>
+     Título: <h1></h1> e assim por ordem numérica
+     
+     Pode sim ter mais de um <h1> mas não é comun
+    
+     Não pode ser quebrada a Hieararquia, sobre tamanhos isso se muda em CSS
+
+    <OBS>
+     O html é usado para semântica, não forma e acão
+
+    <Negrito / Itálico / Marcador>
+        Negrito: <strong></strong>
+        Itálico: <em></em>
+        Marcador: <mark></mark>
+
+    <Texto grande e pqueno>
+    
+     Antes era usado as tags <big></big> (texto maior)
+     e <small></small> (texto menor)
+
+     A tag <big> está obsoleta pode se refere à forma, já <small> conseguimos dar um significado, como al linhas complementares de um livro ou contrato
+
+    <Texto deletado e inserido>
+
+     Deletado: <del></del>
+     
+     Inserido: <ins></ins>  (semântica)
+
+     Inserido: <u></u>  (sem semântica)
+
+    <Texto sobrescrito e subscrito>
+
+     Sobrescrito: <sup></sup>
+
+     Subscrito: <sub></sub>
+
+    <Outras formatações>
+     letras monoespaçadas, todas as letras tem o memso "tamanho": <code></code>
+
+     Vai aparecer como digitado, com quebras de linhas e espaços: <pre></pre>
+
+     Citações simples (vai aparecer entre aspas): <q></q>
+     Citações completas (vai aparecer com uma tabulação): <blockquote></blockquote>
+      pode se usar <blockquote cite="link da citação, mais usado para direitos autorais, tipo peguei daqui essa citação"></blockquote>
+
+     Para abreviações de comentário: <abbr title="texto"></abbr> 
+      Isso cria uma caixa onde está o texto da abreviação
+
+    <Listas>
+     as tags de lista devem ser fechadas porém as do conteúdo não, que seria <li></li>
+     
+     Listas Ordenasdas: <ol></ol>
+      sua principal característica é a  sequencia. vem como padrão sequência numérica mas pode ser  modificada assim: <ol type="" start=""></ol>
+      os tipos tão 5
+       ^ Afabético Maior (A)   ^ Romanos Maior (I)
+       ^ Afabético Menor (a)   ^ Romanos Menor (i)
+       ^ Numérico (1) padrão
+
+      OBS:
+       também pode ser usado o atributi start="" que vai indicar de onde vai começar a contagem, no caso das letras será de acordo com sua posição no alfabeto
+
+     Listas Não Ordenasdas: <ul></ul>
+     Usado quando não necessita deuma ordem, usado 3 síbolos
+       ^ Cículo preenchido (disc) padrão
+       ^ Cículo bordado (circle)   
+       ^ Quadrdo preenchido (square)
+
+    Lista de Definições: <dl></dl> definition listen
+     Como se fosse um dicionário, temos o termo e a definição
+
+     Termo: <dt></dt> como título
+     Definição: <dd></dd> vai ser formatado em cascata
+         
+    <Links>
+     
+     Link Externo: <a href="https://url/">hipertexto</a>
+      Para que seja aberto em uma nova aba o link usamos o atributo target="_blank" que direciona para uma nova aba
+
+      E podemos usar o atributo rel="" que seria a semântica, dentro de rel colocamos se será próxima página "next", página anterior ou inicial "" ou até externo "external"
+
+    Links Internos: <a href="caminho" rel="" >hipertexto</a>
+    
+     no rel="" usamos mais o next (quando for a próxima) ou prev (quando for a anterior) 
+
+      também podemos usar target="_self" o mecanismo vai identificar como um link interno e não vai abrir em uma nova aba
+
+      Para usar um caminho em que a paste esteja dentro do preojeto somente clicar "ctrl" e "barra de espaço" que vai mostrar os caminhos a seguir. Já para voltar podemos usar "../" para voltar 1 pasta e assim consecutivamente 
+
+      OBS: usar somente "./" vai se referir à pasta em que se encontra o arquivo atual
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,3 @@
+Html é identificado para semântica, para significado
+ para usar forma ou estilo: CSS e acão: js
+
