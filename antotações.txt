@@ -16,6 +16,10 @@
 
     <Síbolos e emojis>
 
+        Entidades: cada um possui um código (&#) ou um &
+         < &lt; ou 	&#60;
+         > &gt; ou &#62;
+
         Síbolos: (existe uma tabela com as predefinições)
          &reg; &copy (©)
 
