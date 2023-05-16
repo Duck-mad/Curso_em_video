@@ -142,6 +142,8 @@
 
       OBS: usar somente "./" vai se referir à pasta em que se encontra o arquivo atual
 
+    Download pode se usar a tag de link com o atributo download="nome que quer o arquivo"
+
 
 
 
