@@ -3,4 +3,8 @@
 
  Estou aprendendo a criar meus repositórios
 
+<<<<<<< Updated upstream
  atualizalçao
+=======
+ramo novo
+>>>>>>> Stashed changes
