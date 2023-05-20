@@ -114,10 +114,10 @@
        também pode ser usado o atributi start="" que vai indicar de onde vai começar a contagem, no caso das letras será de acordo com sua posição no alfabeto
 
      Listas Não Ordenasdas: <ul></ul>
-     Usado quando não necessita deuma ordem, usado 3 síbolos
-       ^ Cículo preenchido (disc) padrão
-       ^ Cículo bordado (circle)   
-       ^ Quadrdo preenchido (square)
+      Usado quando não necessita deuma ordem, usado 3 síbolos
+      ^ Cículo preenchido (disc) padrão
+      ^ Cículo bordado (circle)   
+      ^ Quadrdo preenchido (square)
 
     Lista de Definições: <dl></dl> definition listen
      Como se fosse um dicionário, temos o termo e a definição
@@ -132,7 +132,7 @@
 
       E podemos usar o atributo rel="" que seria a semântica, dentro de rel colocamos se será próxima página "next", página anterior ou inicial "" ou até externo "external"
 
-    Links Internos: <a href="caminho" rel="" >hipertexto</a>
+     Links Internos: <a href="caminho" rel="" >hipertexto</a>
     
      no rel="" usamos mais o next (quando for a próxima) ou prev (quando for a anterior) 
 
@@ -142,8 +142,20 @@
 
       OBS: usar somente "./" vai se referir à pasta em que se encontra o arquivo atual
 
-    Download pode se usar a tag de link com o atributo download="nome que quer o arquivo"
+    <Download>
+     pode se usar a tag de link com o atributo download="nome que quer o arquivo"
+     <a href="musica/Cifra.pdf" download="Cifra.pdf"> para facilitar podemos usar o atributo target="_blank" para que possa abrir uma nova aba
+     podemos usar o type="" o que estiver dentro será o application/pdf ou application/zip isso vai variar do arquivo
+     Aqui um site para conferir qual deve-se usar
+      https://www.iana.org/assignments/media-types/media-types.xhtml
 
+    <Imagens>
+     acão
+
+    <Audio>
+     usamos a tag: <audio src="caminho"></audio>
+      podemos usar o atributo ccontrol para aparecer a barra de controles
+     
 
 
 
