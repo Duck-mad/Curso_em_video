@@ -155,6 +155,12 @@
     <Audio>
      usamos a tag: <audio src="caminho"></audio>
       podemos usar o atributo ccontrol para aparecer a barra de controles
+    
+     Podemos usar o seguinte também
+      <audio controls>
+       <source src="local ou link">
+      </audio>
+      dessa forma podemos trabalhar melhor dentro da tag <audio></audio>
      
 
 
