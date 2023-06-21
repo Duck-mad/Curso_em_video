@@ -9,16 +9,27 @@ PYTHON
  Variável:
     Exemplo: nome da variável recebe valor
      num = 1
-    
     Podemos declarar qual o tipo primitivo, para dizer que será um número inteiro:     
      num = int(1)
-
     Para dizer que será um str:
      num = str(1)
-     
       assim ficaria tipo
        num1 = str(1)
        num2 = str(2)
        total = num1 + num2
        12
- Print: 
+ 
+  Print:
+   Para delimitar a quantidade de casas decimais:
+    Temos que declarar `float` e em seguida na função {: 3.f}, descrevendo melhor seria:
+     {} a função  : o que vai ocorrer
+     3. o delimitador
+     f de casas flutuantes
+   Para que eu possa juntar com outros `prints` posso usar:
+     , end=''
+      O que for dentro de aspas simples será o intermediário entre uma função e outra
+    Ficando no código completo assim
+     print('Hello, word!' , edn='')
+     print('Very good.')
+   Quabra de linha:
+    Para usar quebra de linha, usamos o atributo `\n`
