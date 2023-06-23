@@ -25,6 +25,9 @@ PYTHON
      {} a função  : o que vai ocorrer
      3. o delimitador
      f de casas flutuantes
+     mas para tipo tantas casas depois do ponto flutuante seria assim
+      print(float(f'{var : .3f}'))
+
    Para que eu possa juntar com outros `prints` posso usar:
      , end=''
       O que for dentro de aspas simples será o intermediário entre uma função e outra
@@ -33,3 +36,15 @@ PYTHON
      print('Very good.')
    Quabra de linha:
     Para usar quebra de linha, usamos o atributo `\n`
+
+  Operações Matemáticas:
+
+   num = int(input('Qaul o número?'))   # 10
+
+    Soma ==  print(f'A soma é: {num+2}')   # 12
+
+    Subtração ==  print(f'A subtração é: {num-2}')  # 8
+
+    Multiplicação ==  print(f'A subtração é: {num*2}')  # 20
+
+    Divisão ==  print(f'A subtração é: {num/2}')  # 5
